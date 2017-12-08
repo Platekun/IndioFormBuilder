@@ -1,0 +1,21 @@
+.IndioInput {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.IndioInput .IndioInput__input {
+  background-color: transparent;
+  border: 2px solid #979797;
+  color: black;
+  font-size: 1.1rem;
+  height: 2.25rem;
+  margin: 0;
+  padding: 0 0.5em;
+  width: 100%;
+}
+
+.IndioInput span {
+  margin-right: 0.5em;
+  font-size: 1.2em;
+}

@@ -1,0 +1,18 @@
+.Question {
+  border: 2px solid #979797;
+  margin-top: 1em;
+  padding: 2em;
+  width: 38em;
+}
+
+.Question .Question__controls {
+  text-align: right;
+}
+
+.Question .Question__controls button {
+  margin-right: 0.5em;
+}
+
+.Question .Question__controls button:first-of-type {
+  margin-left: 0;
+}

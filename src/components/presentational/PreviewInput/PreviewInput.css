@@ -1,0 +1,21 @@
+.PreviewInput {
+  display: block;
+  margin: 1em 0;
+}
+
+.PreviewInput .PreviewInput__input {
+  background-color: transparent;
+  border: 2px solid #979797;
+  color: black;
+  display: block;
+  font-size: 1.1rem;
+  height: 2.25rem;
+  margin: 0;
+  padding: 0 0.5em;
+  width: 30%;
+}
+
+.PreviewInput .PreviewInput__title {
+  font-size: 1.2em;
+  margin-right: 0.5em;
+}

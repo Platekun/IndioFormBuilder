@@ -1,0 +1,44 @@
+.PreviewRadio .PreviewRadio__controls {
+  display: flex;
+  font-size: 1.1em;
+}
+
+.PreviewRadio .PreviewRadio__label {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.PreviewRadio input[type='radio'] {
+  margin-right: 1em;
+}
+
+.PreviewRadio input[type='radio']:after {
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid #9D9D9D;
+  content: '';
+  display: inline-block;
+  height: 15px;
+  left: -1px;
+  position: relative;
+  top: -2px;
+  visibility: visible;
+  width: 15px;
+}
+
+.PreviewRadio input[type='radio']:checked:after {
+  background: -moz-linear-gradient(to bottom, rgb(223, 222, 222) 0%, #9D9D9D 100%);
+  background: -webkit-linear-gradient(to bottom, rgb(223, 222, 222) 0%, #9D9D9D 100%);
+  background: linear-gradient(to bottom, rgb(223, 222, 222) 0%, #9D9D9D 100%);
+  background: rgb(184, 198, 223);
+  border-radius: 15px;
+  content: '';
+  display: inline-block;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8c6df', endColorstr='#6d88b7', GradientType=0);
+  height: 15px;
+  left: -1px;
+  position: relative;
+  top: -2px;
+  visibility: visible;
+  width: 15px;
+}

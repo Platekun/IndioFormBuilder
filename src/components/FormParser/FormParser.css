@@ -1,0 +1,11 @@
+.FormParser {
+  padding: 2.5em;
+}
+
+.FormParser .FormParser__questions-list {
+  padding-left: 0;
+}
+
+.FormParser .FormParser__question {
+  list-style-type: none;
+}
